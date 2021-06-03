@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# decimo.sh - Nosso Decimo Programa em Shell - Mr. Robot
+# mr.robot.sh - Nosso Decimo Programa em Shell - Mr. Robot
 
 # Homepage: http://monitoramentoonline.pro
 # Autor: Edjanio da Silva <edjaniosilva.al@gmail.com>
@@ -8,7 +8,7 @@
 #
 #-----------------------------------------------------
 #
-# Este programa é um robo interativo, stylo alexia, chamado Mr. Robot criado para invadir determinadas url, buscar vulnerabilidade e tambem 
+# Este programa é um robo interativo, estilo alexia, chamado Mr. Robot criado para invadir determinadas url, buscar vulnerabilidade e tambem 
 # 
 # Exemplo de exeção:
 #
