@@ -1,11 +1,11 @@
 #!/bin/bash
 #
-# decimo.sh - Nosso Decimo Programa em Shell - Mr. Robot
-
+# Script de Backup - Este script realiza backup de diretórios
+# Versão: 1.0
 # Homepage: http://monitoramentoonline.pro
 # Autor: Edjanio da Silva <edjaniosilva.al@gmail.com>
 # Mantenedor: Grupo cybersec <edjaniosilva.al@gmail.com
-#
+# Licença: GPL3
 #-----------------------------------------------------
 #
 # Este programa é um sera usado para realizar um backup full. 
