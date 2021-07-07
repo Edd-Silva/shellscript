@@ -1,14 +1,14 @@
 #!/bin/bash
 #
-# mr.robot.sh - Nosso Decimo Programa em Shell - Mr. Robot
+# - Mr. Robot
 
 # Homepage: http://monitoramentoonline.pro
-# Autor: Edjanio da Silva <edjaniosilva.al@gmail.com>
-# Mantenedor: Grupo cybersec <edjaniosilva.al@gmail.com
+# Autor: Edjanio da Silva 
+# Mantenedor: edjaniosilva.al@gmail.com
 #
 #-----------------------------------------------------
 #
-# Este programa é um robo interativo, estilo alexia, chamado Mr. Robot criado para invadir determinadas url, buscar vulnerabilidade e tambem 
+# Este programa é um robo interativo, estilo alexia, chamado Mr. Robot criado para invadir determinadas url, buscar vulnerabilidade etc. 
 # 
 # Exemplo de exeção:
 #
@@ -18,7 +18,7 @@
 #
 # Versão: 1.0
 #
-# COPYRIGHT: Este programa é GPL
+# COPYRIGHT: Este programa é GPL3
 #
 source /root/doshelltohell/instructions.txt
 
@@ -44,6 +44,7 @@ while true; do
 			DADO="$(( $RANDOM & 4 ))"
 			ssh -l root "${openssh[$DADO]}"
 	       ;;
-
+                
+	       
  	esac
 done
