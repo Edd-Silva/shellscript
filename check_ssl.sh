@@ -2,6 +2,7 @@
 #Descrição: Script que checa a quantidade de dias que falta para um certificado ssl expirar
 #Versão:1.0
 #Licenca: GPL3
+#Modo de uso ./check_ssl.sh example.com
 
 data=`echo | openssl s_client -servername $1 -connect $1:${2:-443} 2>/dev/null | openssl x509 -noout -enddate | sed -e 's#notAfter=##'`
 
