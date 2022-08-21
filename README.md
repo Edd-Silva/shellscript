@@ -1,2 +1,2 @@
 # shellscript
-scripts para automatizar tarefas no linux
+scripts para automatizar tarefas no Linux.
