@@ -10,9 +10,9 @@
 #
 # Este programa é um sera usado para realizar um backup full. 
 # 
-# Exemplo de exeção:
+# Exemplo de execução:
 #
-# $ ./decimo.sh 
+# $ ./backup.sh 
 # 
 # Historico de Versoes
 #
@@ -20,7 +20,7 @@
 #
 # COPYRIGHT: Este programa é GPL
 #
-# BACKUPDIR - Local onde estão os arquivos de origem que faremos backup
+# BACKUPDIR - Local onde estão os arquivos de origem que serão feito os backups
 
 BKPDIR="/srv/backup/"
 FILESDIR="/srv/samba/"
