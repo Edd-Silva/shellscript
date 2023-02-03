@@ -8,7 +8,7 @@
 # Licença: GPL3
 #-----------------------------------------------------
 #
-# Este programa é um sera usado para realizar um backup full. 
+# Este script é usado para realizar um backup full. 
 # 
 # Exemplo de execução:
 #
