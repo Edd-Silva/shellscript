@@ -10,7 +10,7 @@
 #
 # Este programa é um robo interativo, estilo alexia, chamado Mr. Robot criado para invadir determinadas url, buscar vulnerabilidade etc. 
 # 
-# Exemplo de exeção:
+# Exemplo de execução:
 #
 # $ ./mr.robot.sh 
 # 
