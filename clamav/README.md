@@ -13,6 +13,8 @@
   
 # Script para automatizar o antivirus free clamav.
 
+![](menu.png)
+
 O antivirus clamav precisa está instalado e configurado.
 
 Caso não esteja instalado siga os passos abaixo.
