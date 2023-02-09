@@ -46,9 +46,9 @@ ERROR: Initialization error!
 
 # Tente estes comandos abaixo.
 
-$ sudo systemctl disable clamav-freshclam.service
-$ sudo kill -15 $(pgrep freshclam)
-$ sudo freshclam -v
+- $ sudo systemctl disable clamav-freshclam.service
+- $ sudo kill -15 $(pgrep freshclam)
+- $ sudo freshclam -v
 
-$ sudo freshclam
+- $ sudo freshclam
 
