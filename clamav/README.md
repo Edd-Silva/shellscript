@@ -46,9 +46,9 @@ sudo yum install clamav-server clamav-data clamav-update clamav-filesystem clama
 
 # Tente estes comandos abaixo.
 
-- $ sudo systemctl disable clamav-freshclam.service
-- $ sudo kill -15 $(pgrep freshclam)
-- $ sudo freshclam -v
+1. $ sudo systemctl disable clamav-freshclam.service
+2. $ sudo kill -15 $(pgrep freshclam)
+3. $ sudo freshclam -v
 
-- $ sudo freshclam
+4. $ sudo freshclam
 
