@@ -39,10 +39,10 @@ sudo yum install clamav-server clamav-data clamav-update clamav-filesystem clama
 
 # OBS.: Caso ocorra algum erro durante o processo de atualição como estes abaixo.
 
-ERROR: /var/log/clamav/freshclam.log is locked by another process
-ERROR: Problem with internal logger (UpdateLogFile = /var/log/clamav/freshclam.log).
-ERROR: initialize: libfreshclam init failed.
-ERROR: Initialization error!
+- ERROR: /var/log/clamav/freshclam.log is locked by another process
+- ERROR: Problem with internal logger (UpdateLogFile = /var/log/clamav/freshclam.log).
+- ERROR: initialize: libfreshclam init failed.
+- ERROR: Initialization error!
 
 # Tente estes comandos abaixo.
 
