@@ -8,7 +8,7 @@ O antivirus clamav precisa está instalado e configurado.
 
 Caso não esteja instalado siga os passos abaixo.
 
-Distro Debian e derivadas:
+# Distro Debian e derivadas:
 
 $ sudo apt update -y && sudo apt install clamav clamav-deamon
 
@@ -36,7 +36,9 @@ sudo yum install clamav-server clamav-data clamav-update clamav-filesystem clama
 # Tente estes comandos abaixo.
 
 1. $ sudo systemctl disable clamav-freshclam.service
+
 2. $ sudo kill -15 $(pgrep freshclam)
+
 3. $ sudo freshclam -v
 
 4. $ sudo freshclam
