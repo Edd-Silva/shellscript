@@ -1,3 +1,2 @@
-Scrip básico que traz algumas informações sobre sistemas Linux.
-
-
+#Script básico para listar informações do sistema.
+##Ao executar este script ele cria um log de cada comando contendo informações.
