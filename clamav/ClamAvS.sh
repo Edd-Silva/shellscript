@@ -29,7 +29,7 @@ read OPCAO
 case $OPCAO in
          1)
               echo "Atualizando.. o clamav! Aguarde..."
-              sleep 1 
+              sleep 20
               clear
               sudo freshclam #Atualiza a base de dados do clamav.
               ;;
