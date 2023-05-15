@@ -37,7 +37,7 @@ case $OPCAO in
          1)
              echo "Listando usuários do sistema aguarde..."
              sudo awk -F: '{print $ 1}' /etc/passwd cut -d: -f1 /etc/passwd | tee user.log
-             sleep 3
+             sleep 5
              clear
              ;;
          2)
@@ -49,7 +49,7 @@ case $OPCAO in
          3)
              echo "Espaço em disco "
              df -hT | tee disk.log
-             sleep 3
+             sleep 5
              clear
              ;;
          4)
@@ -61,19 +61,19 @@ case $OPCAO in
          5)
              echo "Listando todos os serviços"
              sudo systemctl list-unit-files --type service --all | tee services.log
-             sleep 3
+             sleep 5
              clear
              ;;
           6) 
              echo "Usuários logados..."
              w |tee usuarios_logados.log
-             sleep 3
+             sleep 5
              clear
              ;;
           7)
              echo "Ultimas tentativas de login"
              sudo lastb | tee tentativas_de_login.log
-             sleep 3
+             sleep 5
              clear
              ;;
           8)
@@ -97,7 +97,7 @@ case $OPCAO in
 
          *)
              echo "Opção invalida!! Digite a opção correta!!!"
-             sleep 3
+             sleep 5
              clear
              ;;
 esac
